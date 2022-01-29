@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a,a{
+    text-decoration: none;
+}
+.ch-80{
+    height: 100vh;
+}
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
+/* header code start */
+header{
+    width: 100%;
+    padding: 1rem 0;
+    position: absolute;
+}
+.navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: white !important;
+    font-weight: 700px;
+}
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.nav-item{
+    margin-left: 16px;
+}
+
+.active{
+    color: white !important;
+}
+
+.banner-btn{
+    padding: 6px 20px;
+    background-color:transparent;
+    color:white;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 35px;
+}
+.banner-btn:hover{
+    background-color: #fc8621;
+    border-color:#fc8621;
+    color: white;
+}
+/* banner section code css */
+.banner{
+    width: 100%;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: soft-light;
+    padding: 100px;
+    
+}
+.banner-content h1{
+    color: white;
+    margin-bottom: 48px;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+.banner-video i{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 16px;
+    z-index: 9999;
+
+}
+.fa fa-play::after{
+    content: '';
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    color: white;
+    border: 1px rgba(255, 255, 255, 0.7);
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    left: -5px;
+
+}
+.first{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+/* about section code start */
+.about-us{
+    width: 100%;
+    padding: 100px 0px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.sub-heading{
+    color: #fc8621;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.heading{
+    font-size: 46px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+.desc{
+    font-size: 16px;
+    color: 212529;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.read-more{
+    background-color: #fc8621;
+    border-color:#fc8621;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 35px;
+}
+/* what we serve section start */
+.what-we-serve{
+    width: 100%;
+    padding: 100px 0;
+}
+.service-item{
+
+}
+.service-item h3{
+    font-size: 28px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+.service-item p{
+    font-size: 16px;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}
+.price{
+    position: absolute;
+    right: 0;
+    bottom: -16px;
+    
+    box-shadow: 0,15px,30px,0 rgba(0,0,0,0.3);
+    padding: 30px;
+    display: inline-block;
+    background-color:white;
+    color: #fc8621 !important;
+    font-weight: 600px;
+    font-size: 20px;
+}
+.owl-nav{
+    position: absolute;
+    top: -140px;
+    right: 10px;
+}
